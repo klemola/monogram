@@ -6,4 +6,4 @@ Thanks to Ilona for the idea, and to Ossi for the mathematics.
 
 ## License
 
-Design of the monogrma is not licensed. Feel free to use the code as inspiration though.
+Design of the monogram is not licensed. Feel free to use the code as inspiration though.
