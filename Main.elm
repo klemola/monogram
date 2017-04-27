@@ -1,6 +1,7 @@
 module Main exposing (..)
 
 import Html exposing (Html, div)
+import Html.Attributes exposing (attribute)
 import Svg exposing (Svg, circle, polyline, g, svg)
 import Svg.Attributes exposing (..)
 
@@ -89,10 +90,12 @@ toPolylinePoints pointsList =
         |> String.join " "
 
 
-main : Html a
-main =
+view : Html a
+view =
     svg
-        [ width "250"
+        [ version "1.1"
+        , attribute "xmlns" "http://www.w3.org/2000/svg"
+        , width "250"
         , height "250"
         , mgViewBox
         ]
@@ -129,3 +132,8 @@ main =
 
         -- , g [] illustrativeDots
         ]
+
+
+main : Html msg
+main =
+    view

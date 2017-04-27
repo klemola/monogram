@@ -1,1 +1,5 @@
 /elm-stuff
+/node_modules
+/.elm-static-html
+index.html
+monogram.svg

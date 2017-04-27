@@ -1,0 +1,22 @@
+{
+  "name": "monogram",
+  "version": "1.0.0",
+  "description": "Just a simple monogram of my initials in Elm.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "./node_modules/.bin/elm-static-html --filename Main.elm --output monogram.svg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klemola/monogram.git"
+  },
+  "author": "Matias Klemola",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/klemola/monogram/issues"
+  },
+  "homepage": "https://github.com/klemola/monogram#readme",
+  "dependencies": {
+    "elm-static-html": "^1.3.0"
+  }
+}
